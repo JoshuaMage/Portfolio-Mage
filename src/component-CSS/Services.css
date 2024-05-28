@@ -1,0 +1,253 @@
+#service-Fullview {
+    display: grid;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+
+}
+
+.services {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow: hidden;
+}
+
+#services-Header {
+    height: 30rem;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+#header-Image {
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    overflow-x: visible;
+}
+
+#services-section {
+    width: 1024px;
+}
+
+.title-service {
+    position: relative;
+    bottom: 5em;
+    left: 50px;
+    font-size: 60px;
+    margin: 0;
+}
+
+.service-button {
+    display: flex;
+}
+
+.service-button button {
+    position: relative;
+    color: #FFAF45;
+    font-weight: bold;
+    font-size: 40px;
+    font-size: 15px;
+    bottom: 20em;
+    left: 50px;
+    margin: 2px;
+    border: none;
+    background-color: transparent;
+}
+
+.service-selection {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.service-selection section {
+    margin: 20px;
+    width: 140px;
+    height: 140px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+
+}
+
+.service-selection button {
+    border: none;
+    background-color: transparent;
+    margin-top: 30px;
+}
+
+.service-selection section:hover {
+    border: dashed;
+    color: #feb000;
+    background-color: #EAF6F6;
+}
+
+.service-selection img {
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+
+#service-section {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#service-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .2fr 1fr;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#service-details .service-image {
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    grid-area: 1 / 2 / 3 / 3;
+    box-shadow: 15px 15px 15px #FFAF45;
+    margin-left: 40px;
+}
+
+.service-title {
+    font-size: 50px;
+    color: #030637;
+    margin-bottom: 20px;
+}
+
+.service-text {
+    color: #7a808d;
+}
+
+#work-Flow {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#work-Flow section {
+    margin-top: 50px;
+}
+
+.work-Header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+
+.work-Header h2 {
+    font-size: 60px;
+    font-family: Montserrat, sans-serif;
+    color: #011a3e;
+    margin: 0;
+}
+
+.work-Header p {
+    color: #7a808d;
+    font-weight: 400;
+}
+
+.right-Image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    height: 400px;
+    margin-bottom: 100px;
+    gap: 10px;
+    overflow: hidden;
+}
+
+
+.work-image {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.middle-Images {
+    grid-area: 1 / 2 / 4 / 4;
+}
+
+.work-details {
+    margin-top: -50px;
+    margin: 15px;
+    padding: 30px;
+    grid-area: 1 / 2 / 4 / 4;
+}
+
+.work-detail {
+    margin-top: -50px;
+    margin: 15px;
+    padding: 30px;
+    grid-area: 1 / 1 / 4 / 2;
+}
+
+#header-price {
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+#header-price h2 {
+    margin: 0;
+    font-size: 50px;
+    color: #030637;
+}
+
+
+#header-price p {
+    color: #7a808d;
+    font-weight: 400;
+}
+
+#pricing-Menu {
+    display: grid;
+    width: 1024px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#pricing-Menu section {
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #F9F9F9;
+
+}
+
+#pricing-Menu section:hover {
+    border-color: #feb000;
+    border-style: dashed;
+    border-width: 4px;
+}
+
+#pricing-Menu section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#pricing-Menu section ul li {
+    padding: 3px;
+}
+
+#pricing-Menu button {
+    background-color: yellow;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    background-color: #feb000;
+    padding: 10px 25px;
+
+}

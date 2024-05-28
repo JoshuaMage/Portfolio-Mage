@@ -1,0 +1,77 @@
+
+#header-Fullview {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media query for devices with width less than or equal to 768px (tablets and phones) */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 5vw;
+        /* adjust padding for smaller screens */
+        margin: 3vw;
+        /* adjust margin for smaller screens */
+    }
+
+    img {
+        max-height: 50vh;
+        /* limit image height to 50% of viewport height on smaller screens */
+    }
+}
+
+/* Media query for devices with width less than or equal to 480px (phones) */
+@media (max-width: 480px) {
+    .container {
+        padding: 1em;
+        margin: 0.5em;
+    }
+}
+
+
+
+#header {
+    display: flex;
+    margin: 20px 30px;
+    font-size: 20px;
+}
+
+#company-Name {
+    margin-right: 6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: #22092C;
+}
+
+#header-ul button {
+    display: inline;
+    margin-left: 30px;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+#header-ul button:focus,
+#header-ul button:active {
+    text-decoration: underline;
+    text-decoration-color: #feb000;
+    text-decoration-thickness: 3px;
+
+}
+
+#header-ul li {
+    list-style-type: none;
+}
+
+#name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #070F2B;
+}
+
+#description {
+    color: #7a808d;
+}
