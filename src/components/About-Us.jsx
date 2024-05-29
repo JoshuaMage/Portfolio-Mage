@@ -1,4 +1,6 @@
 import "../component-CSS/About.css";
+import FeedBack from "./FeedBack.jsx";
+
 export default function AboutUs() {
   return (
     <div className="about">
@@ -107,7 +109,6 @@ export default function AboutUs() {
           </section>
         </div>
 
-
         <div id="third-SecondContainer">
           <section>
             <h2>Graphic Designer</h2>
@@ -136,8 +137,8 @@ export default function AboutUs() {
             <h5>APRIL / May 2024</h5>
           </section>
         </div>
-        
       </div>
+      <FeedBack />
     </div>
   );
 }

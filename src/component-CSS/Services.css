@@ -1,16 +1,16 @@
 #service-Fullview {
     display: grid;
+    width: 1024px;
     justify-content: center;
-    /* Center horizontally */
     align-items: center;
-    /* Center vertically */
+    padding: 0;
 
 }
 
 .services {
+    position: relative;
+    align-items: center;
     width: 100%;
-    margin-left: 0px;
-    margin-right: 0px;
     overflow: hidden;
 }
 
@@ -20,11 +20,12 @@
     margin-bottom: 0px;
 }
 
-#header-Image {
+#services-Header img {
+    position: relative;
     width: 100%;
+    text-align: center;
+    margin-top: 50px;
     height: 400px;
-    margin: 0px;
-    overflow-x: visible;
 }
 
 #services-section {
@@ -209,18 +210,17 @@
 
 #pricing-Menu {
     display: grid;
-    width: 1024px;
+    width: 100%;
+    gap: 40px;
+     margin: 0px;
+    padding: 0px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 #pricing-Menu section {
     text-align: center;
     align-items: center;
-    padding: 30px;
     background-color: #F9F9F9;
 
 }

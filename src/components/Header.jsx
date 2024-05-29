@@ -20,32 +20,36 @@ export default function Header() {
     setShowService((prevService) => !prevService);
   };
   return (
-    <div id="header-Fullview">
-      <header id="header">
-        <h2 id="company-Name">Mage</h2>
-        <ul id="header-ul">
-          <li>
-            <button onClick={toggleHome}>HOME</button>
-            <button onClick={toggleAbout}>ABOUT US</button>
-            <button onClick={toggleService}>SERVICE</button>
-            <button>PORTFOLIO</button>
-            <button>BLOG</button>
-            <button>CONTACT US</button>
-            <button
-              style={{
-                background: "#FFC100",
-                padding: "10px 20px",
-                borderRadius: "10px",
-              }}
-            >
-              HIRE US
-            </button>
-          </li>
-        </ul>
-      </header>
-      {showHome && <Home />}
-      {showAbout && <AboutUs />}
-      {showService && <Services />}
+    <div id="website-view">
+      <div id="header-Fullview">
+        <header id="header">
+          <h2 id="company-Name">Mage</h2>
+          <section>
+          <ul id="header-ul">
+            <li>
+              <button onClick={toggleHome}>HOME</button>
+              <button onClick={toggleAbout}>ABOUT US</button>
+              <button onClick={toggleService}>SERVICE</button>
+              <button>PORTFOLIO</button>
+              <button>BLOG</button>
+              <button>CONTACT US</button>
+              <button
+                style={{
+                  background: "#FFC100",
+                  padding: "10px 20px",
+                  borderRadius: "10px",
+                }}
+              >
+                HIRE US
+              </button>
+            </li>
+          </ul>
+          </section>
+        </header>
+        {showHome && <Home />}
+        {showAbout && <AboutUs />}
+        {showService && <Services />}
+      </div>
     </div>
   );
 }

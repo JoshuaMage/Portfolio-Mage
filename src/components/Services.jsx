@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../component-CSS/Services.css";
 import { SERVICESDETAILS } from "./services.js";
+import FeedBack from "./FeedBack.jsx";
 
 export default function Services() {
   const [activeService, setActiveService] = useState(null);
@@ -15,7 +16,6 @@ export default function Services() {
           <img
             src="https://media.istockphoto.com/id/1331350008/photo/business-team-working-on-a-laptop-computer.jpg?s=1024x1024&w=is&k=20&c=kiAEBApRWT_qgVrM0MHF3wMxh5H14vfsaDHg8354Y_Y="
             alt="image"
-            id="header-Image"
           />
           <h2 className="title-service">Our Services</h2>
           <section className="service-button">
@@ -243,6 +243,7 @@ export default function Services() {
           </div>
         </div>
       </div>
+      <FeedBack />
     </div>
   );
 }
