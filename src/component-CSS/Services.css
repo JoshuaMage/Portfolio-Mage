@@ -1,6 +1,6 @@
 #service-Fullview {
     display: grid;
-    width: 1024px;
+    width: 1050px;
     justify-content: center;
     align-items: center;
     padding: 0;
@@ -29,7 +29,7 @@
 }
 
 #services-section {
-    width: 1024px;
+    width: 1050px;
 }
 
 .title-service {
@@ -59,15 +59,15 @@
 
 .service-selection {
     display: flex;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 1050px;
+
 }
 
 .service-selection section {
-    margin: 20px;
     width: 140px;
+    margin: 20px;
     height: 140px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
     background-color: #fff;
     text-align: center;
@@ -94,9 +94,8 @@
 
 
 #service-section {
+    width: 1050px;
     margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 #service-details {
@@ -129,9 +128,8 @@
 }
 
 #work-Flow {
+    width: 1050px;
     margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 #work-Flow section {

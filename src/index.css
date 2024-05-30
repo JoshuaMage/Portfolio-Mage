@@ -2,33 +2,8 @@
     display: grid;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
-
-/* Media query for devices with width less than or equal to 768px (tablets and phones) */
-
-@media (max-width: 768px) {
-    .container {
-        padding: 5vw;
-        /* adjust padding for smaller screens */
-        margin: 3vw;
-        /* adjust margin for smaller screens */
-    }
-
-    img {
-        max-height: 50vh;
-        /* limit image height to 50% of viewport height on smaller screens */
-    }
-}
-
-/* Media query for devices with width less than or equal to 480px (phones) */
-@media (max-width: 480px) {
-    .container {
-        padding: 1em;
-        margin: 0.5em;
-    }
-}
-
-
 
 #header {
     display: grid;
