@@ -1,5 +1,5 @@
   import { useState } from "react";
-  import "../component-CSS/Feed-Back.css";
+  import "./Feed-Back.css";
   import { FEEDBACKBLOG } from "./feedback.js";
 
   export default function FeedBack() {
@@ -51,7 +51,7 @@
           </p>
         </header>
 
-        <figure>
+        <figure className="feedback-Img">
           <img
             src="https://media.gettyimages.com/id/1334476315/photo/confident-mature-hispanic-man-against-white-background.jpg?s=612x612&w=0&k=20&c=QidM3xis7bJYnpH1htTgAfpasr_TLGCgdKwRAu272fE="
             alt="feedback-Image"
@@ -60,6 +60,7 @@
           <img
             src="https://media.gettyimages.com/id/1450268558/photo/summer-selfie.jpg?s=612x612&w=0&k=20&c=IivGQIXV7pCu_tr10I0kaDouUtIi_pKzOrqB_NAGoCA="
             alt="feedback-Image"
+            className="down-image"
           />
           <img
             src="https://media.gettyimages.com/id/1325053090/photo/confident-non-binary-person-standing-with-hand-on-hip-outdoors.jpg?s=612x612&w=0&k=20&c=Dem3BxFLj6g4yCqDRwYnl8rUMk8kao0lgW3km2iSm1o="

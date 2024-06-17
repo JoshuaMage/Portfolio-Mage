@@ -1,0 +1,143 @@
+#portfolio-fullview {
+  display: grid;
+  width: 100%;
+}
+
+#portfolio-view {
+  overflow: hidden;
+}
+
+#container-Header img {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  /* Adjust this value as needed */
+  object-fit: cover;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#portfolios {
+  position: relative;
+  width: fit-content;
+  bottom: 5em;
+  left: 50px;
+  font-size: 60px;
+  margin: 0;
+}
+
+.portfolios-Buttons button {
+  position: relative;
+  right: 27rem;
+  color: #FFAF45;
+  font-weight: bold;
+  font-size: 15px;
+  bottom: 19em;
+  margin: 2px;
+  border: none;
+  background-color: transparent;
+}
+
+#title-Portfolio {
+  text-align: center;
+}
+
+#title-Portfolio h2 {
+  font-size: 60px;
+  font-family: Montserrat, sans-serif;
+  color: #011a3e;
+}
+
+#title-Portfolio p {
+  color: #7a808d;
+  font-weight: 400;
+}
+
+.portfolio-Selector {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+}
+
+
+/* Normal button style */
+.portfolio-Selector button {
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #011a3e;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Style when button is clicked */
+.portfolio-Selector button:active {
+  background-color: #FFAF45;
+  box-shadow: 5px 5px 30px #FFAF45;
+}
+
+/* Style when button is focused */
+.portfolio-Selector button:focus {
+  outline: none;
+  /* Remove default focus outline */
+  background-color: #FFAF45;
+  box-shadow: 5px 5px 30px #FFAF45;
+}
+
+
+.portfolio-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  justify-items: center;
+  /* Center items horizontally within the grid cell */
+  align-items: center;
+  /* Center items vertically within the grid cell */
+}
+
+.portfolio-item section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.portfolio-content img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.portfolio-item h2 {
+  position: relative;
+  left: 30px;
+  margin-top: 20px;
+
+}
+
+.portfolio-item h2:hover {
+  color: #FFAF45;
+}
+
+
+.portfolio-item p {
+  position: relative;
+  left: 30px;
+  color: #7a808d;
+  bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.portfolio-item {
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.portfolio-item:hover {
+  background-color: #f8f9fa;
+}

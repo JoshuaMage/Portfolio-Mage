@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "../component-CSS/Services.css";
+import "./Services.css";
 import { SERVICESDETAILS } from "./services.js";
-import FeedBack from "./FeedBack.jsx";
+import FeedBack from "../../src/feedback/FeedBack.jsx";
 
 export default function Services() {
   const [activeService, setActiveService] = useState(null);
@@ -39,7 +39,7 @@ export default function Services() {
             ))}
           </div>
 
-          <div id="service-section">
+          <div>
             {activeService && (
               <section id="service-details">
                 <>

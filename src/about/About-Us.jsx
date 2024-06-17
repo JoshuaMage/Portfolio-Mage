@@ -1,5 +1,5 @@
-import "../component-CSS/About.css";
-import FeedBack from "./FeedBack.jsx";
+import "./About.css";
+import FeedBack from "../feedback/FeedBack.jsx";
 
 export default function AboutUs() {
   return (
@@ -93,7 +93,7 @@ export default function AboutUs() {
 
         <div id="third-FirstContainer">
           <section>
-            <p>
+            <p className="first-paragraph">
               “Web development is the bridge between imagination and reality,
               where ideas transform into tangible digital experiences.” –
               Unknown
@@ -110,7 +110,7 @@ export default function AboutUs() {
         </div>
 
         <div id="third-SecondContainer">
-          <section>
+          <section id="second">
             <h2>Graphic Designer</h2>
             <h4>Yuhan Del Rosario</h4>
             <h5>APRIL / May 2024</h5>
@@ -124,7 +124,7 @@ export default function AboutUs() {
 
         <div id="third-FirstContainer">
           <section>
-            <p>
+            <p className="first-paragraph">
               “In web development, the possibilities are endless. Embrace
               innovation, push boundaries, and create something extraordinary.”
               – Unknown

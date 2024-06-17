@@ -1,0 +1,70 @@
+#website-view {
+    width: 100%;
+    overflow: hidden;
+}
+
+#header-Fullview {
+    display: grid;
+}
+
+#header {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 1fr;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+#company-Name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #22092C;
+    text-align: center;
+}
+
+#button-section {
+    overflow: hidden;
+}
+
+#button-section li {
+    list-style-type: none;
+}
+
+#button-section  button {
+    position: relative;
+    top: 30px;
+    left: 50px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin-left: 15px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+
+#header-ul button:focus,
+#header-ul button:active {
+    text-decoration: underline;
+    text-decoration-color: #feb000;
+    text-decoration-thickness: 3px;
+
+}
+
+#header-ul li {
+    list-style-type: none;
+}
+
+#name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #070F2B;
+}
+
+#description {
+    color: #7a808d;
+}

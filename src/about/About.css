@@ -1,6 +1,6 @@
 .about {
     display: grid;
-    width: 1024px;
+    width: 100%;
     justify-content: center;
     align-items: center;
     padding: 0;
@@ -22,7 +22,6 @@
     margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    grid-template-rows: .5fr 1fr .3;
 }
 
 .hire-girlImg {
@@ -66,19 +65,18 @@
 .second-Container {
     margin-top: 100px;
     display: grid;
-    grid-template-columns: 1.2fr 1.2fr;
-    grid-template-rows: 80px 100px .1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 
 .second-Img {
     position: relative;
-    border-radius: 10px;
+    border-radius: 50px;
     grid-area: 1 / 2 / 4 / 3;
     width: 500px;
     height: 400px;
-    object-fit: cover;
-    bottom: -50px;
+    top: 20px;
+    padding-left: 20px;
 }
 
 .second-paragraph {
@@ -98,7 +96,6 @@
 
 #third-Header h2 {
     font-size: 55px;
-    margin-bottom: -7 px;
 }
 
 #third-Header p {
@@ -108,15 +105,14 @@
 
 #third-FirstContainer {
     display: grid;
+    width: 100%;
     grid-template-columns: 1fr .2fr 1fr;
-    padding-top: 50px;
     overflow: hidden;
 }
 
 #third-SecondContainer {
     display: grid;
     grid-template-columns: 1fr .2fr 1fr;
-    padding-top: 50px;
     overflow: hidden;
 }
 
@@ -124,8 +120,6 @@
     position: relative;
     width: 400px;
     font-weight: 400;
-    left: 10px;
-    top: 30px;
     color: #7a808d;
     background-color: #DADADA;
     border-radius: 30px;
@@ -144,10 +138,16 @@
 
 #third-FirstContainer #first {
     position: relative;
-    flex-direction: row-reverse;
-    left: 180px;
+    font-size: 25px;
+    text-align: end;
     top: 50px;
 }
+
+ #second {
+    font-size: 25px;
+    text-align: start;
+}
+
 
 #third-SecondContainer p {
     position: relative;
@@ -178,6 +178,12 @@
     top: 50px;
     left: 60px;
 }
+
+.first-paragraph {
+    position: relative;
+    left: 50px;
+}
+
 
 
 h4 {

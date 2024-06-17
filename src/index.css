@@ -1,55 +1,44 @@
-#header-Fullview {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+/* Base styles for all devices */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-#header {
-    display: grid;
-    width: 100%;
-    grid-template-columns: .5fr 1fr;
-    grid-template-rows: 1fr;
-    font-size: 20px;
-    overflow: hidden;
+#Mage {
+    padding: 20px 0px;
 }
 
-#company-Name {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    color: #22092C;
-
+/* Base styles for Header */
+header {
+    color: white;
+    padding: 15px;
+    text-align: center;
 }
 
-#header button {
-    display: inline;
-    background-color: white;
-    border: none;
-    font-size: 15px;
-    font-weight: bold;
-    margin-left: 10px;
+/* Media Query for Devices with a Minimum Width of 1024px (Computers) */
+@media only screen and (min-width: 1200px){
+    #Mage {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    header {
+        font-size: 24px;
+    }
 }
 
+/* Media Query for Devices with a Maximum Width of 1023px (Mobile Devices) */
+@media (max-width: 480px) {
+    #Mage {
+        width: 90%;
+        height: auto;
+        margin: 10px;
+    }
 
-#header-ul button:focus,
-#header-ul button:active {
-    text-decoration: underline;
-    text-decoration-color: #feb000;
-    text-decoration-thickness: 3px;
+    header {
+        font-size: 18px;
+        padding: 10px;
+    }
 
-}
-
-#header-ul li {
-    list-style-type: none;
-}
-
-#name {
-    font-size: 20px;
-    font-weight: bold;
-    color: #070F2B;
-}
-
-#description {
-    color: #7a808d;
 }

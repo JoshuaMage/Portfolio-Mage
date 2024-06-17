@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "../component-CSS/Home.css";
-import FeedBack from "./FeedBack.jsx";
+import "./Home.css"
+import FeedBack from "../feedback/FeedBack.jsx"
 
 export default function HeaderContainer() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -13,7 +13,7 @@ export default function HeaderContainer() {
       description:
         "“Google Analytics is the best friend of all Digital Marketers as it dictates the decision-making and success of every website.”",
       image:
-        "https://privatejobvacancy.com/wp-content/uploads/2021/07/Web-Developer.jpg",
+        "https://lyceumdo.org/wp-content/uploads/2022/02/Web-Developer.jpg",
     },
     {
       title: "We are Creative",

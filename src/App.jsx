@@ -1,8 +1,9 @@
-import Header from "./components/Header";
+import Header from "../src/header/Header.jsx";
+import "./index.css"
 
 function App() {
   return (
-    <div>
+    <div id="Mage">
       <Header />
     </div>
   );
